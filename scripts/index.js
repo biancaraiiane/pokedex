@@ -13,14 +13,14 @@ let nome = document.getElementById("name")
 urlForm = urlForm + this.name.value
 
 
-//aqui deixa o que o usuário digitar no input em minusculo
+//Deixar o que o usuário irá digitar no input em minusculo
 urlForm = urlForm.toLocaleLowerCase()
 
 
 let imagem = document.getElementById("imgPokemon")
 let resposta = document.getElementById("content")
 
-// respota em html
+// resposta em html
 let html = ""; 
 
 //fetch é um comando para fazer a pesquisa 
@@ -47,10 +47,10 @@ fetch(urlForm)
     })
 
 
-
-
 });
 
+
+//Deixa a primeira letra maiuscula
 function maiuscula(val){
     return val[0].toUpperCase() + val.substr(3)
 }
