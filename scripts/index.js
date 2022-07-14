@@ -52,7 +52,7 @@ fetch(urlForm)
 
 //Deixa a primeira letra maiuscula
 function maiuscula(val){
-    return val[0].toUpperCase() + val.substr(3)
+    return val[0].toUpperCase() + val.substr(1)
 }
 
 
