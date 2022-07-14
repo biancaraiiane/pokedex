@@ -106,3 +106,9 @@ span {
     background-color: #006400;
     letter-spacing: 2px;
 }
+
+h3 {
+    padding: 10px;
+    font-size: .8rem;
+    font-weight: 200;
+}
